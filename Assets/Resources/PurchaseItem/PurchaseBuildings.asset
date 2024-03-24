@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc40c70db87fa1e46abd4afdfaf0e236, type: 3}
+  m_Name: PurchaseBuildings
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 8488c03141066704fb79fb357e48f86a, type: 3}
+  _name: Add Butchery
+  _price: 150
+  _priceIncreaseCount: 1
+  _priceIncreaseCountLimit: 3
+  _purchaseItemType: 0
