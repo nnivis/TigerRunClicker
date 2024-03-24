@@ -112,15 +112,22 @@ namespace TigerClicker
         {
             foreach (Tiger tiger in _tigersList)
             {
-                Destroy(tiger.gameObject);
+                if (tiger != null)
+                {
+                    Destroy(tiger.gameObject);
+                }
             }
             _tigersList.Clear();
 
             foreach (Building building in _buildingsList)
             {
-                Destroy(building.gameObject);
+                if (building != null)
+                {
+                    Destroy(building.gameObject);
+                }
             }
             _buildingsList.Clear();
         }
+
     }
 }
